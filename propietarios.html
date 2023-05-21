@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" href="./img/icons/logo.ico">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Buscador web para gente que busca una habitacion por tiempo indefinido o desea alquilar su piso.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="room,book,alquilar,habitacion,erasmus,reserva">
+        <meta name="author" content="TwentyFiend">
+        <meta name="robots" content="index">
+        <link rel="stylesheet" type="text/css" href="./css/commonstyle.css">
+        <link rel="stylesheet" type="text/css" href="./css/inquilinos.css">
+        <title>Bookandroom/propietarios</title>
+    </head>
+    <body>
+
+        <header>     
+                <div id="bloque_logotipo" onclick="menu_repliegue()">
+                    <div class="tittle_portada"><a href="./index.html">BOOK&ROOM</a></div>
+                    <img id="logotipo" src="./img/pics/logo.WebP" alt="logotipo.WebP" width="40px" height="40px">
+                </div>
+                <div id="menu_header">
+                    <button class="fas fa-bars" id="boton_menu" onclick="menu_desplegable()"></button>
+                    <ul id="nav_header">
+                        <li>
+                            <i class="fas fa-magnifying-glass-location"></i>
+                            <a href="./index.html">ASISTENTE DE BÚSQUEDA</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-circle-question"></i>
+                            <a href="./inquilinos.html">SOBRE NOSOTROS</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-address-book"></i>
+                            <a href="./propietarios.html">PROGRAMA PROPIETARIOS</a>
+                        </li>
+                    </ul>
+                </div>
+        </header>
+        <article onclick="menu_repliegue()" id="top">
+            <div id="contenedor_central">
+                <ul id="menu_inquilinos">
+                   <li><a href="#bloque_1">¿Quienes somos?</a></li>
+                   <li><a href="#bloque_2">¿Qué hacemos?</a></li>
+                   <li><a href="#bloque_3">Nuestro programa</a></li>
+                   <li><a href="#bloque_4">Contacto</a></li>
+                </ul>
+                <a href="#top" id="boton_top"><i class="fa-sharp fas fa-arrow-up"></i>TOP</a>
+                <div id="bloque_portada" class="separador">
+                    <div class="bloque_container">
+                        <div class="bloque_tittle">BIENVENIDO AL PROGRAMA <br> PARA PROPIETARIOS DE <br> BOOK&ROOM</div>
+                        <div id="lema">"Nosotros gestionamos el inmueble, <br> tú solo disfruta"</div>
+                    </div>
+                </div>
+                <div id="bloque_1" class="separador">
+                    <div class="bloque_container">
+                        <div class="bloque_tittle">¿QUIENES SOMOS?</div>
+                        <P>
+                        Book&Room es una empresa que nace de la <b> necesidad de los propietarios </b> para 
+                        encontrar seguridad a la hora de alquilar su vivienda, junto con la demanda de 
+                        personas que necesitan encontrar una habitación en alquiler, ya sea por:
+                        <br>
+                        <ul id="tipos">
+                            <li>cambio de residencia por trabajo</li>
+                            <li>estudio de oposiciones</li>
+                            <li>estudios de grado o master</li>
+                        </ul>
+                        </P>
+                    </div>
+                </div>
+                <div id="bloque_2" class="separador">
+                    <div class="bloque_container">
+                        <div class="bloque_tittle">¿QUÉ HACEMOS?</div>
+                        <P>
+                        Ofrecemos la gestión de su vivienda proporcionando un cobro y una rentabilidad segura, 
+                        a través de una gestión estudiada y meticulosa de selección, garantizando el mejor trato 
+                        para su vivienda.
+                        <br>
+                        Nuestro negocio se basa en el alquiler o compra de viviendas y subarriendo de habitaciones. 
+                        Es decir, alquilamos un piso por la cantidad acordada con el propietario, y posteriormente 
+                        alquilamos las habitaciones individualmente en base a nuestros <b> principios básicos </b>.
+                        </P>
+                    </div>
+                </div>
+                
+                <div id="bloque_3" class="separador">
+                    <div class="bloque_container">
+                        <div class="bloque_tittle">B&R SE BASA EN</div>
+                        <div class="bloque_tittle_destacable fuente_bordeado">5 PRINCIPIOS</div>
+                        <ul id="ventajas_lista">
+                            <li>
+                                <div>1 Alquiler larga estancia</div>
+                                <p>
+                                    Firmamos el contrato de 5 años, tiempo durante el cual el propietario se olvida 
+                                    de realizar gestiones, únicamente recibe el beneficio de alquilar su inmueble 
+                                    sin preocupaciones.
+                                </p>
+                                <img src="./img/pics/estancia.WebP" alt="ventaja1" width="300px" height="300px">
+                            </li>
+                            <li>
+                                <div>2 Pago seguro</div>
+                                <p>
+                                    El piso lo alquilamos a nuestro nombre y, por lo tanto, los responsables del pago 
+                                    somos nosotros,con una solvencia de más de 4000€ mensuales además de la gestión de 
+                                    patrimonio que ascendería a 8000€ mensuales.
+
+                                </p>
+                                <img src="./img/pics/candado.WebP" alt="ventaja2" width="300px" height="300px">
+                            </li>
+                            <li>
+                                <div>3 Tranquilidad y <br> seguridad</div>
+                                <p>
+                                    En el caso de que ocurra algún desperfecto en la vivienda, se les cobra una fianza a 
+                                    cada uno de los inquilinos. De esta forma, cualquier desperfecto que no sea debido al 
+                                    uso cotidiano se cubrirá con esta fianza.
+                                </p>
+                                <img src="./img/pics/vitrina.WebP" alt="ventaja3" width="300px" height="300px">
+                            </li>
+                            <li>
+                                <div>4 Estudio de perfiles <br> y fichas</div>
+                                <p>
+                                    Relizamos un estudio de cada uno de los perfiles muy exhaustivo para evitar cualquier 
+                                    problema. Además realizamos fichas de cada inquilino para que los propietarios sepan 
+                                    quién vive en su inmueble.
+                                </p>
+                                <img src="./img/pics/carpesano.WebP" alt="ventaja4" width="300px" height="300px">
+                            </li>
+                            <li>
+                                <div>5 Condiciones reguladas</div>
+                                <p>
+                                    Sólo se admite una persona por habitación, no se admiten parejas ni fumadores. La estancia 
+                                    mínima es de 6 meses, para evitar demasiada rotación de inquilinos.
+
+                                </p>
+                                <img src="./img/pics/estricto.WebP" alt="ventaja5" width="300px" height="300px">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="bloque_4" class="separador">
+                    <div class="bloque_container">
+                        <div class="bloque_tittle">CONTACTO</div>
+                            <ul>
+                                <li><i class="fas fa-phone" aria-hidden="true"></i><a href="tel:+34624600063">624 600 063</a></li>
+                                <li><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:bookandroomsp@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank">bookandroomsp@gmail.com</a></li>
+                                <li><i class="fab fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com/bookandroomsp" target="_blank">@bookandroom</a></li>
+                            </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+        <footer onclick="menu_repliegue()">
+            <div id="boton_info">
+                <a class="boton_footer" href="#footer_container" onclick="despliegueInfo()">+INFO</a>
+            </div>
+            <div id="masinfo">
+                <!-- <div class="tittle_portada">BOOK&ROOM</div> -->
+                <div id="footer_container">
+                    <div class="footer_bloque">
+                        <a class="footer_acceso" href="./inquilinos.html">Sobre Nosotros</a>
+                        <a class="footer_acceso" href="./index.html">Aviso Legal</a>
+                        <a class="footer_acceso" href="./index.html">Políticas de Privacidad</a>
+                        <a class="footer_acceso" href="./index.html">Políticas de Cookies</a>
+                        <div class="footer_redes">
+                            <a class="redes fab fa-instagram" href="https://www.instagram.com/bookandroomsp" target="_BLANCK"></a>
+                            <a class="redes fab fa-linkedin" href="https://www.linkedin.com/company/bookandroom" target="_BLANCK"></a>
+                        </div>
+                    </div>
+                    <div class="footer_bloque">
+                        <hr>
+                        <h3 class="footer_tittle">Atención al cliente</h3>
+                        <p class="footer_acceso">De lunes a viernes de 9:00 a 14:00 y de 16:00 a 19:00</p>
+    
+                        <h3 class="footer_tittle">Castellón</h3>
+                        <a class="footer_acceso" href="tel:+34624031008"><i class="fas fa-phone"></i>624 031 008</a>
+                        <a class="footer_acceso" href="mailto:bookandroomcs@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank"><i class="fas fa-envelope"></i>bookandroomcs@gmail.com</a>
+                        <a class="footer_acceso" href="https://wa.me/624031008" target="_blank"><i class="fab fa-whatsapp"></i>Contacta por Whatsapp</a>
+    
+                        <h3 class="footer_tittle">Valencia</h3>
+                        <a class="footer_acceso" href="tel:+34624600063"><i class="fas fa-phone"></i>624 600 063</a>
+                        <a class="footer_acceso" href="mailto:bookandroomvlc@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank"><i class="fas fa-envelope"></i>bookandroomvlc@gmail.com</a>
+                        <a class="footer_acceso" href="https://wa.me/624600063" target="_blank"><i class="fab fa-whatsapp"></i>Contacta por Whatsapp</a>
+                    </div>
+                    <div class="footer_bloque">
+                        <hr>
+                        <div class="copyright"><i class="fas fa-copyright"></i>2022 BOOK&ROOM</div>
+                    </div>
+                </div>
+    
+                <!-- <button class="boton_footer" onclick="repliegueInfo()">VOLVER</button> -->
+                <a class="boton_footer" href="#top" onclick="repliegueInfo()">VOLVER</a>
+            </div>
+    
+        </footer>
+
+        <script rel="preconect" src="https://kit.fontawesome.com/8234d178e8.js" crossorigin="anonymous"></script>
+        <script src="./js/interacciones_pagina.js"></script>
+
+        
+    </body>
+</html>

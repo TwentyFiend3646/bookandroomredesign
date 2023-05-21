@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="./img/icons/logo.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Buscador web para gente que busca una habitacion por tiempo indefinido o desea alquilar su piso.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="room,book,alquilar,habitacion,erasmus,reserva">
+    <meta name="author" content="TwentyFiend">
+    <meta name="robots" content="index">
+    <link rel="stylesheet" type="text/css" href="./css/commonstyle.css">
+    <link rel="stylesheet" type="text/css" href="./css/indice.css">
+    <title>Bookandroom</title>
+</head>
+<body>
+
+    <header>     
+            <div id="bloque_logotipo" onclick="menu_repliegue()">
+                <div class="tittle_portada"><a href="./index.html">BOOK&ROOM</a></div>
+                <img id="logotipo" src="./img/pics/logo.WebP" alt="logotipo.WebP" width="40px" height="40px">
+            </div>
+            <div id="menu_header">
+                <button class="fas fa-bars" id="boton_menu" onclick="menu_desplegable()"></button>
+                <ul id="nav_header">
+                    <li>
+                        <i class="fas fa-magnifying-glass-location"></i>
+                        <a href="./index.html">ASISTENTE DE BÚSQUEDA</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-circle-question"></i>
+                        <a href="./inquilinos.html">SOBRE NOSOTROS</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-address-book"></i>
+                        <a href="./propietarios.html">PROGRAMA PROPIETARIOS</a>
+                    </li>
+                </ul>
+            </div>
+    </header>
+    <article onclick="menu_repliegue()" id="top">
+        <div id="contenedor_central">
+            <div class="selector_contenedor">
+                <img class="selector_imagen" src="./img/pics/inquilino.WebP" alt="inquilino" width="2000px" height="2000px">
+                <div class="selector_texto">¿BUSCAS HABITACIÓN?</div>
+            </div>
+            <div class="selector_contenedor">
+                <a href="./propietarios.html">
+                    <img class="selector_imagen" src="./img/pics/propietario.WebP" alt="propietario" width="2000px" height="2000px">
+                    <div class="selector_texto">¿DESEAS ALQUILAR?</div>
+                </a>
+            </div>
+        </div>
+    </article>
+    <footer onclick="menu_repliegue()">
+        <div id="boton_info">
+            <a class="boton_footer" href="#footer_container" onclick="despliegueInfo()">+INFO</a>
+        </div>
+        <div id="masinfo">
+            <!-- <div class="tittle_portada">BOOK&ROOM</div> -->
+            <div id="footer_container">
+                <div class="footer_bloque">
+                    <a class="footer_acceso" href="./inquilinos.html">Sobre Nosotros</a>
+                    <a class="footer_acceso" href="./index.html">Aviso Legal</a>
+                    <a class="footer_acceso" href="./index.html">Políticas de Privacidad</a>
+                    <a class="footer_acceso" href="./index.html">Políticas de Cookies</a>
+                    <div class="footer_redes">
+                        <a class="redes fab fa-instagram" href="https://www.instagram.com/bookandroomsp" target="_BLANCK"></a>
+                        <a class="redes fab fa-linkedin" href="https://www.linkedin.com/company/bookandroom" target="_BLANCK"></a>
+                    </div>
+                </div>
+                <div class="footer_bloque">
+                    <hr>
+                    <h3 class="footer_tittle">Atención al cliente</h3>
+                    <p class="footer_acceso">De lunes a viernes de 9:00 a 14:00 y de 16:00 a 19:00</p>
+
+                    <h3 class="footer_tittle">Castellón</h3>
+                    <a class="footer_acceso" href="tel:+34624031008"><i class="fas fa-phone"></i>624 031 008</a>
+                    <a class="footer_acceso" href="mailto:bookandroomcs@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank"><i class="fas fa-envelope"></i>bookandroomcs@gmail.com</a>
+                    <a class="footer_acceso" href="https://wa.me/624031008" target="_blank"><i class="fab fa-whatsapp"></i>Contacta por Whatsapp</a>
+
+                    <h3 class="footer_tittle">Valencia</h3>
+                    <a class="footer_acceso" href="tel:+34624600063"><i class="fas fa-phone"></i>624 600 063</a>
+                    <a class="footer_acceso" href="mailto:bookandroomvlc@gmail.com?subject=Contacto%20propietario" method="post" enctype="text/plain" target="_blank"><i class="fas fa-envelope"></i>bookandroomvlc@gmail.com</a>
+                    <a class="footer_acceso" href="https://wa.me/624600063" target="_blank"><i class="fab fa-whatsapp"></i>Contacta por Whatsapp</a>
+                </div>
+                <div class="footer_bloque">
+                    <hr>
+                    <div class="copyright"><i class="fas fa-copyright"></i>2022 BOOK&ROOM</div>
+                </div>
+            </div>
+
+            <!-- <button class="boton_footer" onclick="repliegueInfo()">VOLVER</button> -->
+            <a class="boton_footer" href="#top" onclick="repliegueInfo()">VOLVER</a>
+        </div>
+
+    </footer>
+
+    <script rel="preconect" src="https://kit.fontawesome.com/8234d178e8.js" crossorigin="anonymous"></script>
+    <script src="./js/interacciones_pagina.js"></script>
+
+ 
+</body>
+</html>
+
